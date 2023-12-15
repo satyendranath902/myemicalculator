@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4b7d91;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(250, 80, 80);
 }
 
 .App-link {
@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf3ec;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;
+  height: 100vh; */
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 55px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  color: #181616;
+  background-color: #e1eaf3;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #83b300;
+}
+
+.horizontalTab {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.photo {
+  height: 400px;
+  width: 400px; 
+}
+
+.homebody {
+  font-family: Arial, sans-serif;
+  background-color: #f4f5ef;
+
+}
+
