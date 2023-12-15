@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/emicalculator" element={<Emicalculator />} />
+        <Route exact path="/" element={<Emicalculator></Emicalculator>} />
         <Route path="/interestcalculator" element={<InterestCalculator />} />
         <Route path="/payment" element={<Payment />} />
       </Routes>
