@@ -7,7 +7,8 @@ const Navbar = () => {
     <div>
     <nav>
       <ul>
-        <li className='horizontalTab'><Link to="/emicalculator">EmiCalculator</Link></li>        
+        <li className='horizontalTab'><Link to="/emicalculator">EmiCalculator</Link></li>    
+        <li className='horizontalTab'><Link to="/interestcalculator">InterestCalculator</Link></li>     
         <li className='horizontalTab'><Link to="/payment">Payment</Link></li>
       </ul>
     </nav>
