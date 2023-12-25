@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Payment from './components/Payment';
 import Emicalculator from './components/Emicalculator';
 import InterestCalculator from './components/InterestCalculator';
+import Nasa from './components/Nasa';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Emicalculator></Emicalculator>} />
         <Route path="/interestcalculator" element={<InterestCalculator />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/nasa" element={<Nasa />} />
       </Routes>
     </Router>
   );
