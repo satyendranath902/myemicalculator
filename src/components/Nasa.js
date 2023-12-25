@@ -20,7 +20,8 @@ const Nasa = () =>  {
   return (
     <div>
       <button onClick={handleClick}>Nasa Today</button>
-      {data ? <div>{data.copyright}<img className='photo' src={data.hdurl} alt="app-logo" /></div> : <div>Loading..</div>}                 
+      {data ? <div>{data.copyright} <img className='photo' src={data.hdurl} alt="app-logo" /></div> : <div>Loading..</div>}     
+      {data ? <div>{data.explanation}</div> : <div></div>}            
     </div>
 
   );
