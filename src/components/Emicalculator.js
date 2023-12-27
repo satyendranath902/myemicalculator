@@ -5,6 +5,7 @@ const Emicalculator = () => {
   const [interestRate, setInterestRate] = useState('');
   const [loanTerm, setLoanTerm] = useState('');
   const [emiResult, setEmiResult] = useState(null);
+  
 
   const calculateEMI = () => {
     const principal = parseFloat(principalAmount);
@@ -25,7 +26,7 @@ const Emicalculator = () => {
   };
 
   return (
-    <div className="login-container">
+    <div className="login-container" >      
       <h2>EMI Calculator</h2>
       <form onSubmit={handleCalculate}>
         <div className="input-group">
@@ -63,6 +64,7 @@ const Emicalculator = () => {
           <p>{emiResult} / month</p>
         </div>
       )}
+       
     </div>
   );
 };

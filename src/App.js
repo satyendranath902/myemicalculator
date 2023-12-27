@@ -6,9 +6,12 @@ import Payment from './components/Payment';
 import Emicalculator from './components/Emicalculator';
 import InterestCalculator from './components/InterestCalculator';
 import Nasa from './components/Nasa';
+import Deviceinfo from './components/Deviceinfo';
+import { ThemeProvider } from './components/ThemeContext';
 
 function App() {
   return (
+    <ThemeProvider>
     <Router>
       <Navbar />
       <Routes>
@@ -16,8 +19,10 @@ function App() {
         <Route path="/interestcalculator" element={<InterestCalculator />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/nasa" element={<Nasa />} />
+        <Route path="/deviceinfo" element={<Deviceinfo />} />
       </Routes>
     </Router>
+    </ThemeProvider>
   );
 }
 

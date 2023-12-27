@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.light {
+  background-color: #f6f6f6;
+  color: #333;
+}
+
+.dark {
+  background-color: #333;
+  color: #f6f6f6;
 }
 
 .App-logo {

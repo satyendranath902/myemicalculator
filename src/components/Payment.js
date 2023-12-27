@@ -5,7 +5,7 @@ class Payment extends React.Component {
     render() {
         return (
             <div >
-                <img class='photo' src={qr} alt="app-logo" />
+                <img className='photo' src={qr} alt="app-logo" />
             </div>
         );
     }
